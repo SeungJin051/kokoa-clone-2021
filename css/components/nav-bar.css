@@ -19,18 +19,9 @@
 }
 
 .nav_notification {
-  background-color: tomato;
-  color: white;
-  width: 30px;
-  height: 30px;
-  bottom: 15px;
-  left: 15px;
-  border-radius: 15px;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
+  left: 15px;
+  bottom: 15px;
 }
 
 .nav__ellipsis_dot {

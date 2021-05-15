@@ -1,0 +1,10 @@
+.cog__dot {
+  background-color: tomato;
+  border-radius: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 3.5;
+  display: flex-end;
+  position: absolute;
+  margin-top: -7px;
+}
