@@ -12,5 +12,9 @@
 }
 
 .screen-header__icons i {
-  margin-left: 30px;
+  margin-left: 40px;
+}
+
+.screen-header__icons__setting i {
+  margin-right: 40px;
 }

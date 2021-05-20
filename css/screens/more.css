@@ -55,3 +55,33 @@
 .more-suggestions__icon-text {
   opacity: 0.5;
 }
+
+.more-suggestions__icon img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 11px;
+  margin-right: 50px;
+  float: left;
+  border-radius: 10px;
+}
+
+.more-text span {
+  display: block;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 70px;
+}
+
+.more-text2 span {
+  display: block;
+  position: absolute;
+  margin-left: 132.5px;
+  margin-top: 70px;
+}
+.more-text3 span {
+  display: block;
+  position: absolute;
+  margin-left: 244px;
+  margin-top: 70px;
+}
