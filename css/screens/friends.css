@@ -12,6 +12,21 @@
   color: rgba(0, 0, 0, 0.3);
 }
 
+@keyframes Subtitle {
+  from {
+    opacity: 0.7;
+    transform: rotateY(40deg);
+  }
+  to {
+    color: black;
+    transform: none;
+  }
+}
+
+.friends-screen .user-component__subtitle:hover {
+  animation: Subtitle 3s linear;
+}
+
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
@@ -30,7 +45,7 @@
 }
 
 @keyframes hideSplashScreen {
-  frome {
+  from {
     opacity: 1;
   }
   to {
