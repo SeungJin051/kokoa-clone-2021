@@ -14,17 +14,25 @@
 
 @keyframes Subtitle {
   from {
-    opacity: 0.7;
-    transform: rotateY(40deg);
+    opacity: 0.5;
+    transform: rotateY(30deg);
+    border: 1px solid black;
+    padding: 7px 7px;
+    
   }
   to {
-    color: black;
+    opacity: 1;
     transform: none;
+    border: 1px solid rgb(39, 247, 32);
+    padding: 7px 7px;
+    border-radius: 25px;
+    
   }
 }
 
-.friends-screen .user-component__subtitle:hover {
-  animation: Subtitle 3s linear;
+.friends-screen .user-component__subtitle  {
+  animation: Subtitle 4s linear forwards ;
+  will-change: transform;
 }
 
 .friends-screen {
