@@ -6,10 +6,10 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/alt-screen-header.css";
 @import "components/badge.css";
 @import "components/icon-raw.css";
-@import "components/alt-screen-header.css";
-
+@import "components/no-mobile.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
